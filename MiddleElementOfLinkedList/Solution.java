@@ -1,3 +1,5 @@
+package MiddleElementOfLinkedList;
+
 class LinkedList {
 
     public Node insert(int num, Node root) {

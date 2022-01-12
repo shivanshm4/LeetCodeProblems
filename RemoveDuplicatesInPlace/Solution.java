@@ -1,3 +1,5 @@
+package RemoveDuplicatesInPlace;
+
 class Solution {
     public static int removeDuplicates(int[] nums) {
         
