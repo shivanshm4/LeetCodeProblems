@@ -7,20 +7,23 @@ public class Solution {
         if(target == 0){
             return true;
         }
+
+        if(target < 0) {
+            return false;
+        }
         boolean res = false;
         for(int i=0; i<arr.length; i++) {
-            if(target < arr[i]){
-                return false;
-            }
-
-            res = canSum(target-arr[i], arr);            
+            res = canSum(target-arr[i], arr);
+            if(res == true) {
+                return true;
+            }            
         }
 
-        return res;
+        return false;
     }
 
     public static void main(String[] args) {
-        int[] arr = {5, 4, 4, 9};
+        int[] arr = {2,3};
         System.out.println(canSum(7, arr));
     }
 }
