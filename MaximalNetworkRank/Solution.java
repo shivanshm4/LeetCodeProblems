@@ -39,10 +39,6 @@ public class Solution {
         
         int[] arr = new int[networkRank.size()];
         int j =0;
-        for(Integer i: networkRank.keySet()){
-            
-
-        }
         Arrays.sort(arr);
         int maximalNetworkRank = arr[j-2] + arr[j-1];
         return maximalNetworkRank-1;
