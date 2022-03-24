@@ -50,10 +50,7 @@ class Solution {
     
                 }
                 i++;
-                if(number > Integer.MIN_VALUE) {
-                    continue;
-                } else {
-                    number = Integer.MIN_VALUE;
+                if(number > (int)Math.pow(2,31)) {
                     break;
                 }
             }
@@ -85,11 +82,8 @@ class Solution {
     
                 }
                 i++;
-                if(number < Integer.MAX_VALUE) {
-                    continue;
-                } else {
-                    number = Integer.MAX_VALUE;
-                    break;
+                if(number == Integer.MAX_VALUE) {
+                    return Integer.MAX_VALUE;
                 }
                 
             }

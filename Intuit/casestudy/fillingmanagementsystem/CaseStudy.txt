@@ -1,0 +1,27 @@
+Problem Statement: 
+
+    #Fuel Station Challenge
+
+    Fuel Station has 2 petrol and 2 diesel stations. The station has 2 employees who can shuttle to fill fuel. 
+    During peak vehicles line up at each of the station based on the shortest line.
+    How can you design a filling management system so that all the vehicles are treated fairly by the employees?
+    Assume it takes 1 second to fill every vehicle and also some vehciles like ambulance get first priority.
+
+    Method 1 -> Add 20/many vehicles to station based on fuel type in memory
+    Method 2 -> Add one vehicle based on the fuel type and measure how long it takes for the service
+
+    #Expectations
+
+    Readable, modularized code with clear separation of concerns
+    Code to be testable, easy to add new modification
+    Clean interfaces, interactions
+    Efficiency and Scale Patterns
+    Data Structures
+    Reusability, extensibility
+    Correct business logic
+    Observability
+    State assumptions
+    Look out for methods like
+    method 1 -> Add 20/many vehicles to station based on fuel type
+    method 2 -> Add one vehicle based on the fuel type and measure how long it takes for the service
+
